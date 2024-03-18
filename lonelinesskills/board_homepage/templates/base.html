@@ -1,0 +1,22 @@
+<!DOCTYPE html>{% load static i18n %}{% get_current_language as LANGUAGE_CODE %}{% get_available_languages as LANGUAGES %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} {% trans "Page for Reducing Loneliness"|capfirst %} 'LonelinessKILLs' {% endblock title %}</title>
+</head>
+<body>
+    <header>
+        <span class="logo">YOU CARE</span> 
+        <ul class="nav">
+            <li><a href="{% url "index" %}">{% trans "About us" %}</a></li>
+    </header>  
+    <main>{% block content %}{% endblock content %}</main>
+    <footer>
+        {% block footer %}{% endblock footer %}
+        <p>🫂 LonelinessKILLs
+            <a style="float:right;"> {% trans "'Time to say Hello'" %} </a>
+        </p>
+    </footer>  
+</body>
+</html>

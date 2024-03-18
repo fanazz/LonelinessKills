@@ -1,0 +1,11 @@
+body {
+    backdrop-filter: contrast(10%) brightness(150%);
+    background-image: url('/static/images/main_page_view.png');
+    background-size: contain;
+    font-family: sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0; padding: 0;
+    min-height: 100vh;
+}
