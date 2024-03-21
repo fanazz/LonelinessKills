@@ -1,8 +1,0 @@
-{% extends "base.html" %}
-{% block title %}{{ block.super }} list{% endblock title %}
-{% block content %}
-<h1>Volunteers</h1>
-{% for volunteer in volunteer_list %}
-    <p>{{ volunteer }}</p>
-{% endfor %}
-{% endblock content %}
