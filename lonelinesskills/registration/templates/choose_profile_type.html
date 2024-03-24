@@ -1,0 +1,19 @@
+{% extends 'base.html' %}{% load i18n %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Profile Type</title>
+</head>
+<body>
+    <h1>Choose Your Profile Type</h1>
+    <form method="post">
+        {% csrf_token %}
+        <input type="radio" id="lonelyhuman" name="profile_type" value="lonelyhuman">
+        <label for="lonelyhuman">Lonely Human</label><br>
+        <input type="radio" id="volunteer" name="profile_type" value="volunteer">
+        <label for="volunteer">Volunteer</label><br>
+        <button type="submit">Continue</button>
+    </form>
+</body>
+</html>
