@@ -1,7 +1,7 @@
 {% extends 'base.html' %}{% load i18n %}
 {% block title %}{% trans "log in to"|capfirst %} {{ block.super }}{% endblock title %}
 {% block content %}
-<h1>{% trans "log in to"|capfirst %} LonelinessKILLs</h1>
+<h1>{% trans "log in to"|capfirst %} LonelinessKills</h1>
 {% if form.errors %}
 <p class="message message-error">{% trans "Log in error. Please try again." %}</p>
 {% endif %}
@@ -14,6 +14,6 @@
 <p><button type="submit">{% trans "log in"|capfirst %}</button></p>
 </form>
 <p><a href="{% url 'password_reset' %}">{% trans "forgot password?"|capfirst %}</a></p>
-<p>{% trans "If you do not have an account, please" %} <a href="{% url 'choose_profile_type' %}">{% trans "sign up and choose why you are here" %}</a>
-  .
+<p>{% trans "If you do not have an account, please" %} <a href="{% url 'register_as_lonely_human' %}">{% trans "sign up as lonely human" %}</a>
+  {% trans "or" %} <a href="{% url 'register_as_volunteer' %}">{% trans "sign up as volunteer" %}</a>.
 {% endblock content %}

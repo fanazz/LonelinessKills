@@ -1,0 +1,12 @@
+{% extends "base.html" %}{% load i18n %}
+{% block title %}{% trans "Lonely Human registration"|capfirst %}{{ block.super }}{% endblock title %}
+{% block content %}
+<h1>{% trans "signup on LonelinessKILLs if you feel lonely and want to find somebody who accept you."|capfirst %} </h1>
+<form method="post" action="{{ request.path }}">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="hidden" name="role" value="lonelyhuman">
+    <p><button type="submit">{% trans "register lonely human account"|title %}</button></p>
+</form>
+{% endblock content %}
+
