@@ -21,7 +21,8 @@
                     <div class="w3-row">
                         <div class="w3-bar w3-black">
                             <a href="{% url "index" %}" class="w3-bar-item w3-button">{% trans "about us"|capfirst %}</a>
-                            <a href="{% url "register" %}" class="w3-bar-item w3-button">{% trans "registration"|capfirst %}</a>
+                            <a href="{% url "register_as_lonely_human" %}" class="w3-bar-item w3-button">{% trans "registration for lonely humans"|capfirst %}</a>
+                            <a href="{% url "register_as_volunteer" %}" class="w3-bar-item w3-button">{% trans "registration for volunteers"|capfirst %}</a>
                             <a href="{% url "login" %}" class="w3-bar-item w3-button">{% trans "login"|capfirst %}</a>
                         </div>
                     </div>

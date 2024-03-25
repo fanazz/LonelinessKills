@@ -16,3 +16,23 @@
 .footer {
 
 }
+
+
+main form label {
+    display: inline-block;
+    width: 20vw;
+    min-width: 15rem;
+    font-size: 120%;    
+}
+
+main form input
+main form text area
+main form select
+main form button {
+    font-size: 120%    
+}
+
+main form .helptext {
+    display: block;
+    font-size: 80%
+}
