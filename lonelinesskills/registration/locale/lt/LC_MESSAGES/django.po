@@ -1,0 +1,368 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-28 18:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
+"11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? "
+"1 : n % 1 != 0 ? 2: 3);\n"
+
+#: registration/apps.py:8
+msgid "registration"
+msgstr "Registracija"
+
+#: registration/forms.py:34 registration/forms.py:39 registration/models.py:36
+#: registration/models.py:65
+msgid "age"
+msgstr "amžius"
+
+#: registration/forms.py:34 registration/forms.py:39 registration/models.py:37
+#: registration/models.py:66
+msgid "gender"
+msgstr "lytis"
+
+#: registration/forms.py:34 registration/models.py:67
+msgid "personal_no"
+msgstr "asmens kodas"
+
+#: registration/forms.py:34 registration/forms.py:39 registration/models.py:35
+#: registration/models.py:64
+msgid "phone"
+msgstr "telefonas"
+
+#: registration/forms.py:39
+msgid "communication_style"
+msgstr "Bendravimo būdas"
+
+#: registration/forms.py:39 registration/models.py:38
+msgid "description"
+msgstr "aprašymas"
+
+#: registration/forms.py:40
+msgid "required_gender"
+msgstr "savanorio lytis"
+
+#: registration/forms.py:40
+msgid "required_age_from"
+msgstr "savanorio amžius nuo"
+
+#: registration/forms.py:40
+msgid "required_age_to"
+msgstr "savanorio amžius iki"
+
+#: registration/models.py:9
+msgid "Under 18"
+msgstr "iki 18 metų"
+
+#: registration/models.py:13
+msgid "Over 50"
+msgstr "Virš 50 metų"
+
+#: registration/models.py:17 registration/models.py:23
+#: registration/models.py:59
+msgid "Male"
+msgstr "Vyras"
+
+#: registration/models.py:18 registration/models.py:24
+#: registration/models.py:60
+msgid "Female"
+msgstr "Moteris"
+
+#: registration/models.py:19
+msgid "I do not want to say"
+msgstr "Nenoriu nurodyti"
+
+#: registration/models.py:25
+msgid "Doesn't matter"
+msgstr "Nesvarbu"
+
+#: registration/models.py:29
+msgid "By E-Mail"
+msgstr "Susirašinėti el. paštu"
+
+#: registration/models.py:30
+msgid "By Phone"
+msgstr "Kalbėtis telefonu"
+
+#: registration/models.py:31
+msgid "Live meet"
+msgstr "Susitikimais"
+
+#: registration/models.py:34 registration/models.py:63
+#: registration/templates/registration/user_detail.html:4
+#: registration/templates/user_detail.html:4
+msgid "user"
+msgstr "vartotojas"
+
+#: registration/models.py:39
+msgid "communication style"
+msgstr "Bendravimo būdas"
+
+#: registration/models.py:40
+msgid "required age from"
+msgstr "savanorio amžius nuo"
+
+#: registration/models.py:41
+msgid "required age to"
+msgstr "savanorio amžius iki"
+
+#: registration/models.py:42
+msgid "required gender"
+msgstr "savanorio lytis"
+
+#: registration/models.py:46
+msgid "lonelyhumanprofile"
+msgstr "vienišožmogaus profilis"
+
+#: registration/models.py:47
+msgid "lonelyhumanprofiles"
+msgstr "vienišožmogaus profiliai"
+
+#: registration/models.py:70
+msgid "volunteer"
+msgstr "savanoris"
+
+#: registration/models.py:78
+msgid "volunteerprofile"
+msgstr "savanorioprofilis"
+
+#: registration/models.py:79
+msgid "volunteerprofiles"
+msgstr "savanorioprofiliai"
+
+#: registration/templates/register.html:4
+msgid "signup as volunteer"
+msgstr "prisijunk kaip savanoris"
+
+#: registration/templates/register.html:6
+#: registration/templates/register_as_lonely_human.html:2
+msgid "lonely human registration"
+msgstr "vienišo žmogaus registracija"
+
+#: registration/templates/register_as_lonely_human.html:8
+msgid "register lonely human account"
+msgstr "Registruok vienišo žmogaus paskyrą"
+
+#: registration/templates/register_as_volunteer.html:2
+msgid "signup as volunteer for"
+msgstr "Prisijunk kaip savanoris prie"
+
+#: registration/templates/register_as_volunteer.html:9
+msgid "register volunteer account"
+msgstr "Registruok savanorio paskyrą"
+
+#: registration/templates/registration/logged_out.html:2
+msgid "See you later at"
+msgstr "Pasimatysim vėliau"
+
+#: registration/templates/registration/logged_out.html:4
+msgid "see you later at"
+msgstr "Pasimatysim vėliau"
+
+#: registration/templates/registration/logged_out.html:5
+msgid "you are always welcome back"
+msgstr "Laukiam sugrįžtant"
+
+#: registration/templates/registration/logged_out.html:6
+#: registration/templates/registration/login.html:14
+#: registration/templates/registration/password_reset_complete.html:5
+msgid "log in"
+msgstr "prisijungti"
+
+#: registration/templates/registration/logged_out.html:6
+msgid "again"
+msgstr "vėl"
+
+#: registration/templates/registration/login.html:2
+#: registration/templates/registration/login.html:4
+msgid "log in to"
+msgstr "prisijungti prie"
+
+#: registration/templates/registration/login.html:6
+msgid "Log in error. Please try again."
+msgstr "Prisijungimo klaida. Bandykit dar kartą"
+
+#: registration/templates/registration/login.html:16
+msgid "forgot password?"
+msgstr "pamiršote slaptažodį"
+
+#: registration/templates/registration/login.html:17
+msgid "If you do not have an account, please"
+msgstr "Jei neturite paskyros, prašau"
+
+#: registration/templates/registration/login.html:17
+msgid "sign up as lonely human"
+msgstr "Prisijunk kaip vienišas žmogus"
+
+#: registration/templates/registration/login.html:18
+msgid "or"
+msgstr "ar"
+
+#: registration/templates/registration/login.html:18
+msgid "sign up as volunteer"
+msgstr "prisijunk kaip savanoris"
+
+#: registration/templates/registration/password_reset_complete.html:2
+msgid "password changed"
+msgstr "slaptažodis pasikeitė"
+
+#: registration/templates/registration/password_reset_complete.html:4
+msgid "Password has been changed successfully"
+msgstr "Slaptažodis pasikeitė sėkmingai."
+
+#: registration/templates/registration/password_reset_complete.html:5
+msgid "You can now"
+msgstr "Jūs dabar galite"
+
+#: registration/templates/registration/password_reset_complete.html:5
+msgid "with your new password"
+msgstr "su nauju slaptažodžiu"
+
+#: registration/templates/registration/password_reset_confirm.html:2
+#: registration/templates/registration/password_reset_confirm.html:4
+#: registration/templates/registration/password_reset_confirm.html:9
+msgid "reset password"
+msgstr "Slaptažodžio atstatymas"
+
+#: registration/templates/registration/password_reset_confirm.html:12
+msgid "Password Reset Failed: the link has expired and is no longer valid."
+msgstr "Nesėkmingas slaptažodžio atstatymas, nuoroda baigė galioti"
+
+#: registration/templates/registration/password_reset_done.html:2
+#: registration/templates/registration/password_reset_form.html:2
+#: registration/templates/registration/password_reset_form.html:4
+msgid "password reset"
+msgstr "Atstatyti slaptažodį"
+
+#: registration/templates/registration/password_reset_done.html:4
+msgid "please check your email"
+msgstr "Pasitikrinkite savo paštą"
+
+#: registration/templates/registration/password_reset_done.html:5
+msgid "We have sent further instructions to your email."
+msgstr "El. paštu išsiuntėme instrukcijas"
+
+#: registration/templates/registration/password_reset_email.html:1
+msgid ""
+"Hello,\n"
+"\n"
+"Someone has requested the password change at LonelinessKills. If it was not "
+"you, please ignore this email.\n"
+"\n"
+"You can change your password by following this link:"
+msgstr ""
+
+#: registration/templates/registration/password_reset_email.html:8
+msgid ""
+"Best regards,\n"
+"LonelinessKills Team"
+msgstr ""
+
+#: registration/templates/registration/password_reset_form.html:8
+#: registration/templates/user_update.html:9
+msgid "confirm"
+msgstr "Patvirtinkit"
+
+#: registration/templates/registration/user_detail.html:2
+#: registration/templates/user_detail.html:2
+msgid "at"
+msgstr ""
+
+#: registration/templates/registration/user_detail.html:7
+#: registration/templates/user_detail.html:7
+msgid "edit profile data"
+msgstr "taisyti profilio duomenis"
+
+#: registration/templates/registration/user_detail.html:8
+#: registration/templates/user_detail.html:8
+msgid "e-mail"
+msgstr "el. paštas"
+
+#: registration/templates/user_update.html:2
+#: registration/templates/user_update.html:4
+msgid "editing"
+msgstr "taisyti"
+
+#: registration/templates/user_update.html:2
+msgid "profile at"
+msgstr ""
+
+#: registration/templates/user_update.html:4
+msgid "profile"
+msgstr "profilis"
+
+#: registration/views.py:27
+msgid "Thank you for your kindness!"
+msgstr "Ačiū už jūsų gerumą"
+
+#: registration/views.py:30
+msgid "You are not real person. Please fill your correct information"
+msgstr ""
+"Jūs duomenis rodo, kad toks asmuo neegzistuoja. Prašome užpildyti teisingą "
+"informaciją"
+
+#: registration/views.py:33
+msgid "Form data is invalid. Please check your input and try again."
+msgstr "Forma negalioja. Patikrinkite duomenis."
+
+#: registration/views.py:38
+msgid "Registration for Volunteers"
+msgstr "Registracija savanoriams"
+
+#: registration/views.py:39
+msgid ""
+"Signup for LonelinessKILLs volunteers if you have enough time, empathy and "
+"energy to help people who feels abandoned and lonely in their lifes"
+msgstr ""
+"Jei turite pakankamai laiko, empatijos bei energijos,prisijunkite prie "
+"LonelinessKILLs savanoriu ir padėkite tiems, kurie jaučiasi nereikalingi, "
+"nes vienatvės gyvenime yra perdaug"
+
+#: registration/views.py:41
+msgid "Register Volunteer Account"
+msgstr "Registruokite savanorio paskyrą"
+
+#: registration/views.py:55
+msgid ""
+"Good job, now you have to wait then someone will match your requirements and "
+"choose you"
+msgstr "Sveikinu, dabar laukite kol kažkas atitiks jūsų nurodytus reikalavimus"
+
+#: registration/views.py:61
+msgid "Registration for Lonely Humans"
+msgstr "Registracija vienišiems žmonėms"
+
+#: registration/views.py:62
+msgid ""
+"Signup on LonelinessKILLs if you feel lonely and want to find somebody who "
+"accept you."
+msgstr ""
+"Užsiregistruok LonelinessKills jei jautiesi vienišas ir gal rasi kas tave "
+"priims ir supras."
+
+#: registration/views.py:63
+msgid "Register LonelyHuman Account"
+msgstr "Registruok vienišo žmogaus paskyrą"
+
+#~ msgid "Signup as volunteer"
+#~ msgstr "Prisijunk kaip savanorius"
+
+#~ msgid "Lonely Human registration"
+#~ msgstr "Vienišo žmogaus registracija"
+
+
+#~msgid "Hello, world!"
+#~msgstr "Sveikas, pasauli!"

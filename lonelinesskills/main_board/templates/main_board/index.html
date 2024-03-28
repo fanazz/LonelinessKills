@@ -1,18 +1,18 @@
 {% extends "base.html" %}{% load static i18n %}
 {% block content %}
 <div style="background-image: url('{% static 'images/main_page_view2.png' %}')" class="main-description">
-    <h1 style="text-align:center;">🫂&ensp;{% trans "Welcome to LonelinessKILLs" %} &ensp;🫂</h1>
+    <h1 style="text-align:center;">🫂&ensp;{% trans "Welcome to" %} LonelinessKILLs  &ensp;🫂</h1>
     <h3>
         <p></p>
-        <p>&ensp;&ensp;{% trans "About this page!" %}</p>
-        <p>&ensp;&ensp;{% trans "A lot of people in this world feel very lonely, especially after pandemic. Even if it's a utopic idea, this page's creator thinks that people still care about strangers. Still could find some tolerance, warmth, and acceptance in their heart and could try to offer themselves for others. This page idea is to connect people who don't have anything and feel abandoned with people who have enough empathy to understand their situation and could offer their free time for others. THIS IS NOT A DATING APP!!!" %}<br/>
-            &ensp;&ensp; {% trans "I know that people who feel so lonely are vulnerable and usually afraid of others, so I could try to create as much safety as I can now to do it. Only volunteers who will be matched with your picked criteria could choose you. And only after their choice they will see your contact information" %}<br/>
-            &ensp;&ensp;{% trans "I hope that here you could find somebody, who light your life a little bit." %}</p>
-        <p>&ensp;&ensp;{% trans "Reminder" %}<br />
-            &ensp;&ensp;{% trans "This isn't professional help for mental health. If you need professional help, please go" %} <a href="https://www.tuesi.lt/pagalbos-teikejai/" target="_blank">HERE</a>, and we will be waiting for you then you will receive it.</p>
+        <p>&ensp;&ensp;{% trans "About this page!"%}</p>
+        <p>&ensp;&ensp;{% trans "A lot of people in this world feel very lonely, especially after pandemic." %} {% trans "Even if it's a utopic idea, this page's creator thinks that people still care about strangers"%}{% trans "Still could find some tolerance, warmth, and acceptance in their heart and could try to offer themselves for others."%}{% trans "This page idea is to connect people who don't have anything and feel abandoned with people who have enough empathy to understand their situation and could offer their free time for others."%} {% trans "THIS IS NOT A DATING APP!!!" %}<br/>
+            &ensp;&ensp; {% trans "I know that people who feel so lonely are vulnerable and usually afraid of others, so i could try to create as much safety as i could now to do it."%}{% trans "Only volunteers who will be matched with your picked criteria could choose you."%}{% trans "And only after their choice they will see your contact information"%}<br/>
+            &ensp;&ensp;{% trans "I hope that here you could find somebody, who light your life a little bit."%}</p>
+        <p>&ensp;&ensp;{% trans "Reminder"%}<br />
+            &ensp;&ensp;{% trans "This isn't professional help for mental health."%} {% trans "If you need professional help, please go" %} <a href="https://www.tuesi.lt/pagalbos-teikejai/" target="_blank"> {% trans "HERE" %} </a>, {% trans "and we will be waiting for you then you will receive it." %}</p>
 
-        <p>{% trans "Total Volunteers now:" %} {{ volunteer_count }}</p>
-        <p>{% trans "Total people, who try to find somebody now:" %} {{ lonely_human_count }}</p>
+        <p>{% trans "Total volunteers now:"|capfirst %} {{ volunteer_count }}</p>
+        <p>{% trans "Total people, who try to find somebody now:"|capfirst %} {{ lonely_human_count }}</p>
         <p></p>
     </h3>
 </div>

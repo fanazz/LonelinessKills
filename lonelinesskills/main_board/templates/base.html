@@ -1,6 +1,6 @@
 {% load static i18n %}
 <!DOCTYPE html>{% load i18n %}{% get_current_language as LANGUAGE_CODE %}{% get_available_languages as LANGUAGES %}
-<html lang="en">
+<html lang="{{ LANGUAGE_CODE }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +23,23 @@
                             <a href="{% url "register_as_volunteer" %}" class="w3-bar-item w3-button">{% trans "registration for volunteers"|capfirst %}</a>
                             <a href="{% url "login" %}" class="w3-bar-item w3-button">{% trans "login"|capfirst %}</a>
                         </div>
-                    </div>
+                            <div class="w3-row">
+                                <div class="w3-bar w3-white" style="text-align: right;">
+                                    <span class="spacer"></span>
+                                    <form action="{% url 'set_language' %}" method="post">
+                                        {% csrf_token %}
+                                        <input type="hidden" name="next" value="{{ redirect_to }}">
+                                        <select class="language" name="language" onchange="this.form.submit();">
+                                            {% for language in LANGUAGES %}
+                                                <option value="{{ language.0 }}" {% if language.0 == LANGUAGE_CODE %}selected{% endif %}>
+                                                    {{ language.1 }}
+                                                </option>
+                                            {% endfor %}
+                                        </select>
+                                    </form>
+                                </div>        
+                            </div>
+                    </div> 
                 </header>
                 <div class="messages">
                     {% for message in messages %}
@@ -41,7 +57,7 @@
                         <div class="w3-bar w3-yellow footer">
                         {% block footer %}{% endblock footer %}
                         <p>🫂 LonelinessKILLs
-                            <a style="float:right;"> {% trans "'Time to say Hello'" %} </a>
+                            <a style="float:right;"> {% trans "time to say hello"|capfirst %} </a>
                         </div>
                         </p>
                     </div>

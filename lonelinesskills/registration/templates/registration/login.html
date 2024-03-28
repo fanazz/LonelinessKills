@@ -16,4 +16,8 @@
 <p><a href="{% url 'password_reset' %}">{% trans "forgot password?"|capfirst %}</a></p>
 <p>{% trans "If you do not have an account, please" %} <a href="{% url 'register_as_lonely_human' %}">{% trans "sign up as lonely human" %}</a>
   {% trans "or" %} <a href="{% url 'register_as_volunteer' %}">{% trans "sign up as volunteer" %}</a>.
+</p>
+
+<div class="other-description"></div>
+
 {% endblock content %}

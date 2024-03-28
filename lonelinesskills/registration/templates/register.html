@@ -1,9 +1,9 @@
 {% extends "base.html" %}{% load i18n %}
 {% block title %}
     {% if form_volunteer %}
-        {% trans "Signup as volunteer"|capfirst %}
+        {% trans "signup as volunteer"|capfirst %}
     {% else %}
-        {% trans "Lonely Human registration"|capfirst %}
+        {% trans "lonely human registration"|capfirst %}
     {% endif %}
     {{ block.super }}
 {% endblock title %}

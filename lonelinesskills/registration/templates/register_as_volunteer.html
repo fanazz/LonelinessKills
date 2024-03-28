@@ -1,6 +1,7 @@
-{% extends "base.html" %}{% load i18n %}
+{% extends "base.html" %}{% load static i18n %}
 {% block title %}{% trans "signup as volunteer for"|capfirst %}{{ block.super }}{% endblock title %}
 {% block content %}
+<link rel="stylesheet" href="{% static 'css/custom.css' %}">
 <form method="post" action="{{ request.path }}">
     {% csrf_token %}
     {{ form.as_p }}

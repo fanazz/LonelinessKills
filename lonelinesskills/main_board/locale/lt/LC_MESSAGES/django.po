@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-28 17:56+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
+"11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? "
+"1 : n % 1 != 0 ? 2: 3);\n"
+
+#: main_board/apps.py:8
+msgid "main_board"
+msgstr ""
+
+#: main_board/templates/base.html:21
+msgid "about us"
+msgstr "apie"
+
+#: main_board/templates/base.html:22
+msgid "registration for lonely humans"
+msgstr "registracija vienišiems žmonėms"
+
+#: main_board/templates/base.html:23
+msgid "registration for volunteers"
+msgstr "registracija savanoriams"
+
+#: main_board/templates/base.html:24
+msgid "login"
+msgstr "prisijungti"
+
+#: main_board/templates/base.html:60
+msgid "time to say hello"
+msgstr "laikas pasakyti labas"
+
+#: main_board/templates/main_board/index.html:4
+msgid "Welcome to"
+msgstr "Sveiki atvykę"
+
+#: main_board/templates/main_board/index.html:7
+msgid "About this page!"
+msgstr "Apie puslapį"
+
+#: main_board/templates/main_board/index.html:8
+msgid ""
+"A lot of people in this world feel very lonely, especially after pandemic."
+msgstr "Dauguma žmonių šitame pasaulyje jaučiasi vieniši, ypač po pandemijos"
+
+#: main_board/templates/main_board/index.html:8
+msgid ""
+"Even if it's a utopic idea, this page's creator thinks that people still "
+"care about strangers"
+msgstr ""
+"Net jei tai utopinė idėja, šio puslapio kūrėjas mano, kad dar yra tokių, "
+"kuriems rūpi nepažįstami žmonės"
+
+#: main_board/templates/main_board/index.html:8
+msgid ""
+"Still could find some tolerance, warmth, and acceptance in their heart and "
+"could try to offer themselves for others."
+msgstr ""
+"Kad yra tokių kurie savo širdyse randa tolerancijos, šilumos ir kitų "
+"priėmimo, bei gali tai pasiūlyti kitiems."
+
+#: main_board/templates/main_board/index.html:8
+msgid ""
+"This page idea is to connect people who don't have anything and feel "
+"abandoned with people who have enough empathy to understand their situation "
+"and could offer their free time for others."
+msgstr ""
+"Šio puslapio idėja yra sujungti žmonės, kurie jaučiasi apleisti bei vieniši "
+"su tais kuri turi pakankamai empatijos užjausti ir gali pasiūlyti savo dalį "
+"laiko kitiems."
+
+#: main_board/templates/main_board/index.html:8
+msgid "THIS IS NOT A DATING APP!!!"
+msgstr "TAI NĖRA DAR VIENA PAŽINČIŲ PUSLAPIS"
+
+#: main_board/templates/main_board/index.html:9
+msgid ""
+"I know that people who feel so lonely are vulnerable and usually afraid of "
+"others, so i could try to create as much safety as i could now to do it."
+msgstr ""
+"Aš suprantu, kad vieniši žmonės yra labai pažeidžiami ir įprastai bijo "
+"užmegzti kontaktą su kitais, todėl pasistengiausukurti kuo daugiau saugumo."
+
+#: main_board/templates/main_board/index.html:9
+msgid ""
+"Only volunteers who will be matched with your picked criteria could choose "
+"you."
+msgstr ""
+"Tik tie savanoriai, kurie atitiks jūsų pasirinktus kriterijus galės "
+"pasirinkti jus"
+
+#: main_board/templates/main_board/index.html:9
+msgid "And only after their choice they will see your contact information"
+msgstr "Ir tik pasirinkus jie pamatys visą jūsų informaciją."
+
+#: main_board/templates/main_board/index.html:10
+msgid ""
+"I hope that here you could find somebody, who light your life a little bit."
+msgstr ""
+"Tikiuosi, kad šio puslapio pagalba surasite kažką, kas jūsų gyvenimą bent "
+"truputį praskaidrins"
+
+#: main_board/templates/main_board/index.html:11
+msgid "Reminder"
+msgstr "Priminimas"
+
+#: main_board/templates/main_board/index.html:12
+msgid "This isn't professional help for mental health."
+msgstr "Šis puslapis neskirtas"
+
+#: main_board/templates/main_board/index.html:12
+msgid "If you need professional help, please go"
+msgstr "Jeigu jums reikia profesionalios pagalbos, prašau kreiptis"
+
+#: main_board/templates/main_board/index.html:12
+msgid "HERE"
+msgstr "ČIA"
+
+#: main_board/templates/main_board/index.html:12
+msgid "and we will be waiting for you then you will receive it."
+msgstr "ir mes jūsų lauksime sugrįžtant kai ją gausite"
+
+#: main_board/templates/main_board/index.html:14
+msgid "Total volunteers now:"
+msgstr "Iš viso savanorių:"
+
+#: main_board/templates/main_board/index.html:15
+msgid "Total people, who try to find somebody now:"
+msgstr "Iš viso žmonių, kurie ieško:"

@@ -52,7 +52,7 @@ def register_as_lonely_human(request: HttpRequest) -> HttpResponse:
             profile = form_profile.save(commit=False)
             profile.user = user
             profile.save()
-            messages.success(request, _("Good job, now you have to give us additional information about your requirements with who and how you want to comunnicate with our volunteers"))
+            messages.success(request, _("Good job, now you have to wait then someone will match your requirements and choose you"))
             return redirect('login')  
     else:
         form_user = forms.LonelyHumanUserForm()
