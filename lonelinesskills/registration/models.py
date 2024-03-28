@@ -2,8 +2,7 @@ from django.db import models
 from django.contrib.auth import get_user_model
 from django.urls import reverse
 from django.utils.translation import gettext as _
-from django.core.exceptions import ValidationError
-from datetime import datetime
+
 
 class LonelyHumanProfile(models.Model):
     AGES = (

@@ -1,0 +1,8 @@
+.other-description {
+    background-image: url("/static/images/other_pages_view.png"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:cyan;
+    backdrop-filter: contrast(5%), brightness(10%); 
+}
